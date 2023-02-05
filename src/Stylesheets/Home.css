@@ -54,12 +54,12 @@ span{
    color: yellowgreen;
 }
 .hero-content h1{
-   font-size: 12rem;
+   font-size: 9rem;
    color: #fff;
    font-weight: bolder;
    position: absolute;
    top: 36%;
-   left: 17%;
+   left: 25%;
    word-spacing: 18px;
 }
 .button-more a{

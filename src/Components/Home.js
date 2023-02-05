@@ -20,10 +20,9 @@ const Home = () => {
         <div className="hero-content">
           <h1>Welcome to <span>The Dine</span></h1>
         </div>
-        <div className="button-more">
-          <a href="">Know More</a>
-         
-        </div>
+        {/* <div className="button-more">
+          <a href="">Know More</a>       
+        </div> */}
 
       </div>
 
