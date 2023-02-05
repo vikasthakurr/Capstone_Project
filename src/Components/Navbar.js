@@ -1,9 +1,9 @@
 import React from 'react';
 import "../Stylesheets/Navbar.css";
 
-const Home = () => {
+const Navbar = () => {
   return (
-    
+    <>
       <div className="navbar">
         <div className="nav-links">
           <h2>The Dine</h2>
@@ -15,7 +15,17 @@ const Home = () => {
           </ul>
         </div>
       </div>
+      <div className="hero">
+            <div className="hero-content">
+               <h1>Welcome to <span>The Dine</span></h1>
+            </div>
+            <div className="button-more">
+               <a href="">Know More</a>
+            </div>
+
+         </div>
+    </>
   )
 }
 
-export default Home;
+export default Navbar;

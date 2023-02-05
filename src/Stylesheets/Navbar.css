@@ -44,3 +44,24 @@
 .nav-links ul li .active {
   color: yellowgreen;
 }
+
+.hero-content h1{
+   font-size: 7rem;
+   color: #fff;
+   font-weight: bolder;
+   
+   
+}
+.button-more a{
+   color: #fff;
+   font-size: 3rem;
+   
+   font-weight: bolder;
+   word-spacing: 8px;
+   
+}
+.button-more a:hover{  
+   text-decoration: underline yellowgreen;
+   
+}
+
