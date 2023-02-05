@@ -1,33 +1,19 @@
-import React from 'react';
-import "../Stylesheets/Home.css";
+import React from 'react'
 
 const Home = () => {
-  return (
-    <div className="home">
-      <div className="navbar">
-        <div className="nav-links">
-          <h2>The Dine</h2>
-          <ul>
-            <li><a href="" className="active">Home</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Order</a></li>
-          </ul>
-        </div>
-      </div>
+   return (
+      <>
+         <div className="hero">
+            <div className="hero-content">
+               <h1>Welcome to <span>The Dine</span></h1>
+            </div>
+            <div className="button-more">
+               <a href="">Know More</a>
+            </div>
 
-      <div className="hero">
-        <div className="hero-content">
-          <h1>Welcome to <span>The Dine</span></h1>
-        </div>
-        {/* <div className="button-more">
-          <a href="">Know More</a>       
-        </div> */}
-
-      </div>
-
-    </div>
-  )
+         </div>
+      </>
+   )
 }
 
-export default Home;
+export default Home
