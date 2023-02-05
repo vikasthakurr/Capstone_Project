@@ -33,6 +33,10 @@ ul {
   display: inline-grid;
   margin: 40px;
 }
+.nav-links ul li a{
+  text-decoration:none;
+  color: #fff;
+}
 
 .nav-links h2 {
   color: yellowgreen;
