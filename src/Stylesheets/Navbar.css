@@ -6,9 +6,10 @@
   text-decoration: none;
 }
 .home {
-  background: url("../Photos/background.jpeg");
+  background: url("../Photos/background.jpg");
   height: 100vh;
   width: 100%;
+  background-position: center;
   font-family: "Dancing Script", cursive;
 }
 .navbar {
@@ -28,16 +29,15 @@
 }
 .nav-links ul li a {
   color: #fff;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .nav-links h2 {
   color: yellowgreen;
-  font-size: 35px;
+  font-size: 40px;
   position: absolute;
-  top: 3%;
+  top: 2.5%;
   left: 10%;
-  word-spacing: 10px;
   font-weight: bolder;
 }
 .nav-links a:hover {
@@ -69,4 +69,26 @@ span{
 }
 .button-more a:hover {
   text-decoration: underline yellowgreen;
+}
+.social-nav{
+  position:absolute;
+  top: 27%;
+}
+.social-nav i{
+  color: #fff;
+  font-size:25px;
+  display: flex;
+  margin: 50px; 
+}
+.social-nav .one:hover{
+  color:red;
+}
+.social-nav .two:hover{
+  color:blue;
+}
+.social-nav .three:hover{
+  color:#2596be;
+}
+.social-nav .four:hover{
+  color:#DF392E;
 }
