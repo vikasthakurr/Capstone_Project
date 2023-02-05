@@ -5,33 +5,35 @@
   list-style: none;
   text-decoration: none;
 }
-.navbar {
-  background: #000;
-  height: 140px;
+.home {
+  background: url("../Photos/background.jpeg");
+  height: 100vh;
   width: 100%;
   font-family: "Dancing Script", cursive;
 }
-.nav-links{
+.navbar {
+  height: 120px;
+  width: 100%;
+}
+.nav-links {
   width: 90%;
 }
-
 
 .nav-links ul {
   float: right;
 }
 .nav-links ul li {
   display: inline-grid;
-  margin: 40px;
+  margin: 25px;
 }
 .nav-links ul li a {
- 
   color: #fff;
-  font-size: 45px;
+  font-size: 25px;
 }
 
 .nav-links h2 {
   color: yellowgreen;
-  font-size: 3rem;
+  font-size: 35px;
   position: absolute;
   top: 3%;
   left: 10%;
@@ -45,23 +47,26 @@
   color: yellowgreen;
 }
 
-.hero-content h1{
-   font-size: 7rem;
-   color: #fff;
-   font-weight: bolder;
-   
-   
+.hero-content h1 {
+  font-size: 8rem;
+  color: #fff;
+  font-weight: bolder;
+  position: absolute;
+  top: 35%;
+  left: 20%;
 }
-.button-more a{
-   color: #fff;
-   font-size: 3rem;
-   
-   font-weight: bolder;
-   word-spacing: 8px;
-   
+span{
+  color: yellowgreen;
 }
-.button-more a:hover{  
-   text-decoration: underline yellowgreen;
-   
+.button-more a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bolder;
+  word-spacing: 8px;
+  position: absolute;
+  top: 56%;
+  left: 45%;
 }
-
+.button-more a:hover {
+  text-decoration: underline yellowgreen;
+}
