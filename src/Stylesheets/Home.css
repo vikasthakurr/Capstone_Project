@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+.home {
+  /* background: url("../Photos/background.jpeg"); */
+  background: #000;
+  height: 100vh;
+  width: 100%;
+  background-size: contain;
+  font-family: "Dancing Script", cursive;
+ opacity:0.85;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  height: 100vh;
+}
+.nav-links {
+  width: 90%;
+  height: 130px;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+.nav-links ul {
+  float: right;
+}
+.nav-links ul li {
+  color: #fff;
+  font-size: 2.4rem;
+  display: inline-grid;
+  margin: 40px;
+}
+
+.nav-links h2 {
+  color: yellowgreen;
+  font-size: 3rem;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  word-spacing: 10px;
+  font-weight: bolder;
+}
+.nav-links a:hover {
+  text-decoration: underline yellowgreen;
+}
+.nav-links ul li .active {
+  color: yellowgreen;
+}
+
+span{
+   color: yellowgreen;
+}
+.hero-content h1{
+   font-size: 12rem;
+   color: #fff;
+   font-weight: bolder;
+   position: absolute;
+   top: 36%;
+   left: 17%;
+   word-spacing: 18px;
+}
+.button-more a{
+   color: #fff;
+   font-size: 3rem;
+   position: absolute;
+   top: 59%;
+   left: 45%;
+   font-weight: bolder;
+   word-spacing: 8px;
+   
+}
+.button-more a:hover{  
+   text-decoration: underline yellowgreen;
+   
+}
+
