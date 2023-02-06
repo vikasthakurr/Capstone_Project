@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Service from './Components/Service';
 import Us from './Components/Us';
 import Order from './Components/Order';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Service/>
       <Us/>
       <Order/>
+      <Footer/>
     </>
   );
 }

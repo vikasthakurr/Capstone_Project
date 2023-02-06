@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+.footer-container h1{
+   color: #fff;
+   text-align: center;
+   font-size: 32px;
+}
+.footer-container {
+  font-family: "Dancing Script", cursive;
+  background: #222831;
+  width: 100%;
+  height:270px;
+  position: relative;
+  
+}
+.footer-left{
+   position: absolute;
+   top: 20%;
+   left: 9%;
+}
+.content-left p{
+   color:#fff;
+   font-size:20px; 
+   margin-top: 20px;
+   margin-left: 12px; 
+   
+}
+
+.footer-mid{
+   position: absolute;
+   top:20%;
+   left: 44%;
+}
+
+.content-mid p{
+   color:#fff;
+   font-size:20px; 
+   margin-top: 20px;
+   margin-left: 40px; 
+}
+
+.footer-right{
+   position: absolute;
+   top:20%;
+   left: 80%;
+}
+.content-right p{
+   color:#fff;
+   font-size:20px; 
+   margin-top: 20px;
+   margin-left: 40px; 
+}
