@@ -36,7 +36,7 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="menu-heading">
+        <div className="menu-heading" id="menu">
           <div className="heading">
             <h1>Ours Specials</h1>
             <p>Main Course</p>
