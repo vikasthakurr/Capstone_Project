@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+.service-container {
+  font-family: "Dancing Script", cursive;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #222831;
+}
+
+.service-heading h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #fff;
+  position: absolute;
+  top:2%;
+  left:45%;
+}
+.us-image img {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  left: 15%;
+  top: 19%;
+}
+
+.us-para h1 {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  
+}
+.us-para p{
+   color: #fff;
+   font-size: 24px;
+  word-spacing: 3px;
+   position: absolute;
+   left:50%;
+   top: 35%;
+   width: 550px;
+
+}
+
+.us-para a{
+   padding: 10px 45px;
+   font-size: 20px;
+   background:#FFBE33;
+   border-radius: 45px;
+   position: absolute;
+   top:75%;
+   left:50%;
+}
+.us-para a:hover{
+   background: orange;
+}
+

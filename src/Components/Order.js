@@ -3,7 +3,14 @@ import "../Stylesheets/Order.css";
 
 const Order = () => {
   return (
-    <div>Order</div>
+    <>
+      <div className="order">
+      <div className="order-heading">
+        <h1>Book A Table</h1>
+      </div>
+        
+      </div>
+    </>
   )
 }
 

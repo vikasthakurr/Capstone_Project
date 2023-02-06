@@ -121,7 +121,7 @@ i {
 }
 .main-course:hover {
   transform: translateX(-10px);
-  box-shadow: 3px 5px yellowgreen;
+  box-shadow: 1px 2px yellowgreen;
   cursor: pointer;
 }
 
@@ -129,7 +129,7 @@ i {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid yellow;
+  border: 5px solid #FFFF00;
   position: absolute;
   left: 7%;
   top: 2%;
@@ -155,7 +155,7 @@ i {
   font-size: 20px;
 }
 .order-course:hover {
-  background: yellowgreen;
+  background: orange;
 }
 
 
@@ -190,7 +190,7 @@ i {
 }
 .main-courses:hover {
   transform: translateX(-10px);
-  box-shadow: 3px 5px yellowgreen;
+  box-shadow: 2px 2px yellowgreen;
   cursor: pointer;
 }
 
@@ -198,7 +198,7 @@ i {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid yellow;
+  border: 5px solid #FFFF00;
   position: absolute;
   left: 7%;
   top: 2%;
@@ -224,5 +224,5 @@ i {
   font-size: 20px;
 }
 .order-courses:hover {
-  background: yellowgreen;
+  background: orange;
 }
