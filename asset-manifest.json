@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/Capstone_Project/static/css/main.e6fe879a.css",
-    "main.js": "/Capstone_Project/static/js/main.88da3856.js",
+    "main.css": "/Capstone_Project/static/css/main.9b0b5e1c.css",
+    "main.js": "/Capstone_Project/static/js/main.59322a1c.js",
+    "static/media/card-7.jpg": "/Capstone_Project/static/media/card-7.521a426471c6d76017da.jpg",
+    "static/media/card-6.jpg": "/Capstone_Project/static/media/card-6.9a5b75a2a3451aec9a9f.jpg",
     "static/media/background.jpg": "/Capstone_Project/static/media/background.fcaf56c8dbd24876228e.jpg",
+    "static/media/card-3.jpg": "/Capstone_Project/static/media/card-3.144915616f9086fc32ac.jpg",
     "static/media/card-2.jpg": "/Capstone_Project/static/media/card-2.a450bb1da1741ffc9095.jpg",
+    "static/media/card-4.jpg": "/Capstone_Project/static/media/card-4.3893f2d3157fe73906af.jpg",
+    "static/media/pizza5.jpg": "/Capstone_Project/static/media/pizza5.3ace01c03b1e21a8451c.jpg",
+    "static/media/pizza2.jpg": "/Capstone_Project/static/media/pizza2.84723709a220a1fc87fd.jpg",
     "static/media/card-1.jpg": "/Capstone_Project/static/media/card-1.7be72059a8864092bbff.jpg",
+    "static/media/card-5.jpg": "/Capstone_Project/static/media/card-5.d37a47fda166fc1b3204.jpg",
+    "static/media/pizza3.jpg": "/Capstone_Project/static/media/pizza3.6b2447732599830e26f5.jpg",
+    "static/media/pizza1.jpg": "/Capstone_Project/static/media/pizza1.8648e1ed5b31a8c73e7d.jpg",
+    "static/media/pizza4.jpg": "/Capstone_Project/static/media/pizza4.1618db2333145465758a.jpg",
     "index.html": "/Capstone_Project/index.html",
-    "main.e6fe879a.css.map": "/Capstone_Project/static/css/main.e6fe879a.css.map",
-    "main.88da3856.js.map": "/Capstone_Project/static/js/main.88da3856.js.map"
+    "main.9b0b5e1c.css.map": "/Capstone_Project/static/css/main.9b0b5e1c.css.map",
+    "main.59322a1c.js.map": "/Capstone_Project/static/js/main.59322a1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6fe879a.css",
-    "static/js/main.88da3856.js"
+    "static/css/main.9b0b5e1c.css",
+    "static/js/main.59322a1c.js"
   ]
 }
