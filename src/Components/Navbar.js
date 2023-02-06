@@ -28,10 +28,10 @@ const Navbar = () => {
 
 
         <div className="social-nav">
-          <a href=""><i class="one fa-brands fa-instagram"></i></a>
-          <a href=""><i class="two fa-brands fa-facebook"></i></a>
-          <a href=""><i class="three fa-brands fa-twitter"></i></a>
-          <a href=""><i class="four fa-solid fa-envelope"></i></a>
+          <a href=""><i className="one fa-brands fa-instagram"></i></a>
+          <a href=""><i className="two fa-brands fa-facebook"></i></a>
+          <a href=""><i className="three fa-brands fa-twitter"></i></a>
+          <a href=""><i className="four fa-solid fa-envelope"></i></a>
         </div>
       </div>
     </>
