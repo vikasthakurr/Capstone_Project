@@ -20,10 +20,10 @@
 }
 .us-image img {
   width: 400px;
-  height: 500px;
+  height: 430px;
   position: absolute;
   left: 15%;
-  top: 19%;
+  top: 17%;
 }
 
 .us-para h1 {
@@ -31,7 +31,7 @@
   font-size: 40px;
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: 20%;
   
 }
 .us-para p{
@@ -40,7 +40,7 @@
   word-spacing: 3px;
    position: absolute;
    left:50%;
-   top: 35%;
+   top: 29%;
    width: 550px;
 
 }
@@ -51,7 +51,7 @@
    background:#FFBE33;
    border-radius: 45px;
    position: absolute;
-   top:75%;
+   top:68%;
    left:50%;
 }
 .us-para a:hover{
