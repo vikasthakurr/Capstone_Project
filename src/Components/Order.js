@@ -1,29 +1,75 @@
-import React from 'react';
+import React, { useState } from "react";
 import "../Stylesheets/Order.css";
 
-const Order = () => {
+function Order() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
+  const [nameError, setNameError] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [mobileError, setMobileError] = useState("");
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    let nameError = "";
+    let emailError = "";
+    let mobileError = "";
+
+    if (!name) {
+      nameError = "Name is required";
+    }
+
+    if (!email.includes("@")) {
+      emailError = "Invalid email address";
+    }
+
+
+    if (!/^\d{10}$/.test(mobile)) {
+      mobileError = "Invalid mobile number (only 10 digits allowed)";
+    }
+
+    if (nameError || emailError || mobileError) {
+      setNameError(nameError);
+      setEmailError(emailError);
+      setMobileError(mobileError);
+      return;
+    }
+
+    alert("Seat booked successfully");
+  };
+
   return (
-    <>
-      <div className="order">
-        <div className="order-heading">
-          <h1>Book A Table</h1>
-        </div>
+    <div className="order-box">
+    <h1>Book Your Seat</h1>
+      <div className="cont">
+        <form onSubmit={handleSubmit}>
 
-        <div className="order-form">
-          <div className="form-box">
-            <input type="text" placeholder="Your name..."/>
-            <input type="text" placeholder="Mobile..." />
-            <input type="email" placeholder="Email..." />
-            <input type="text" placeholder="No. of person..." />
-            <input type="date" className="dated" />
-          </div>
-        </div>
+          <input
+            type="text" placeholder="Name..."
+            value={name}
+            onChange={e => setName(e.target.value)}
+          />
+          {nameError && <div style={{ color: "red" }}>{nameError}</div>}
 
-        <a href="">Book Now</a>
 
+          <input type="email" placeholder="Email..." value={email} onChange={e =>
+            setEmail(e.target.value)} />
+          {emailError && <div style={{ color: "red" }}>{emailError}</div>}
+
+
+
+          <input
+            type="text" placeholder="Mobile..."
+            value={mobile}
+            onChange={e => setMobile(e.target.value)}
+          />
+          {mobileError && <div style={{ color: "red" }}>{mobileError}</div>}
+
+          <button className="sbt" type="submit">Submit</button>
+        </form>
       </div>
-    </>
-  )
+    </div>
+  );
 }
 
 export default Order;

@@ -5,9 +5,9 @@ import us from "../Photos/about-img.png"
 const Us = () => {
   return (
     <>
-      <div className="service-container">
+      <div className="service-container" id="about">
         <div className="service-heading">
-          <h1>Our Services</h1>
+          {/* <h1>Our Services</h1> */}
         </div>
         <div className="us-image">
           <img src={us} alt="" />

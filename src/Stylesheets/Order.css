@@ -1,54 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 
-.order {
-  font-family: "Dancing Script", cursive;
-  width: 100%;
+.order-box {
   height: 100vh;
+  width: 100%;
   position: relative;
+  font-family: "Dancing Script", cursive;
 }
-.order-heading h1 {
+.order-box h1{
   text-align: center;
-  font-size: 40px;
-  word-spacing: 8px;
-  text-decoration: underline;
   position: absolute;
-  left: 42%;
   top: 7%;
+  left: 42%;
+  font-size: 40px;
 }
-.order-form {
-  width: 589px;
+form {
+  width: 73%;
+  height: 600px;
   position: absolute;
-  top: 22%;
-  left: 30%;
+  left: 27%;
+  top: 20%;
 }
-.form-box {
+form input {
   display: grid;
+  width: 600px;
+  height: 50px;
+  margin: 35px;
+  border-radius: 10px;
 }
-.form-box input {
-  height: 52px;
-  border-radius: 14px;
-  margin: 12px;
-}
-.form-box input::placeholder {
+
+.sbt {
+  padding: 15px 280px;
+  background: #fff000;
+  cursor: pointer;
+  border-radius: 45px;
   position: absolute;
-  left: 3%;
-  top: 35%;
-  font-size:16px;
+  left: 2.4%;
 }
-.form-box .dated {
-  padding-left: 10px;
-  font-size: 16px;
-}
-.order a{
-   padding: 15px 240px;
-   background: #fff000;
-   position: absolute;
-   top:78%;
-   left: 31%;
-   border-radius: 45px;
-   font-size: 19px;
-}
-.order a:hover{
-   background: orange;
-   
+.sbt:hover {
+  background: orange;
 }
