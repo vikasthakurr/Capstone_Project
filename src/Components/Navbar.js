@@ -12,13 +12,13 @@ const Navbar = () => {
               <li><a href="" className="active">Home</a></li>
               <li><a href="#menu">Menu</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#orders">Order</a></li>
+              <li><a href="#book">Book Us</a></li>
             </ul>
           </div>
         </div>
         <div className="hero">
           <div className="hero-content">
-            <h1>Welcome to <span>The Dine</span></h1>
+            <span className="change_content"></span>
           </div>
           <div className="button-more">
             <a href="">Know More</a>

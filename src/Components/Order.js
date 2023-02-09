@@ -39,7 +39,7 @@ function Order() {
   };
 
   return (
-    <div className="order-box">
+    <div className="order-box" id="book">
     <h1>Book Your Seat</h1>
       <div className="cont">
         <form onSubmit={handleSubmit}>

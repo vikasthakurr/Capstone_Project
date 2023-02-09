@@ -14,7 +14,7 @@ const Us = () => {
         </div>
         <div className="us-para">
           <h1>We are <span>The Dine</span> </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet corrupti, quidem molestiae itaque dolor ratione sit quasi sequi natus? Mollitia accusamus neque enim, eos reprehenderit deserunt porro magni voluptate.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ea maiores laborum deserunt necessitatibus repellendus? Exercitationem rem non id facilis quidem veniam porro nihil magnam alias deserunt, veritatis adipisci libero.</p>
+          <p>Welcome to The Dine, where we believe that dining is about more than just food. It's about coming together with friends and family to create memories that will last a lifetime.Our menu features a variety of dishes inspired by cuisine, made with only the freshest and highest quality ingredients.we're committed to providing an unforgettable dining experience for all of our guests. Our welcoming and knowledgeable staff will be happy to assist you with menu recommendations and ensure that your meal is nothing short of perfect.we can't wait to serve you.</p>
 
           <a href="https://github.com/vikasthakurr" target="_blank">Read More</a>
         </div>

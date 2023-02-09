@@ -48,17 +48,30 @@
   color: yellowgreen;
 }
 
-.hero-content h1 {
-  font-size: 8rem;
+.change_content{
+  font-size: 6.7rem;
   color: #fff;
   font-weight: bolder;
   position: absolute;
   top: 35%;
-  left: 20%;
+  left: 21%;
 }
-span{
-  color: yellowgreen;
-}
+.change_content:after {
+   content: "";
+   animation: changetext 4s infinite linear;
+   color: #9acd32;
+ }
+ @keyframes changetext {
+   0% {
+     content: "Welcome To The Dine";
+   }
+   50% {
+     content: "We Are Best In Town";
+   }
+   100% {
+     content: "Have A Nice Day";
+   }
+ }
 .button-more a {
   color: #fff;
   font-size: 2rem;
