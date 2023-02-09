@@ -4,7 +4,7 @@ import "../Stylesheets/Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <div className="home">
+      <div className="home" id="first">
         <div className="navbar">
           <div className="nav-links">
             <h2>The Dine</h2>

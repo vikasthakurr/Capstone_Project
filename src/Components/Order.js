@@ -67,7 +67,10 @@ function Order() {
 
           <button className="sbt" type="submit">Submit</button>
         </form>
+
+        <a href="#first" className="top"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
       </div>
+
     </div>
   );
 }
